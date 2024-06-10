@@ -1,0 +1,29 @@
+/* VSCodeWindow.css */
+
+.vscode-window {
+  border: 1px solid #333;
+  display: flex;
+  flex-direction: column;
+  background-color: #1e1e1e;
+}
+
+.vscode-title-bar {
+  background: #333;
+  color: #fff;
+  padding: 8px;
+  text-align: center;
+}
+
+.vscode-sidebar {
+  width: 200px;
+  background: #252526;
+  color: #fff;
+  padding: 8px;
+}
+
+.vscode-editor {
+  flex: 1;
+  background: #1e1e1e;
+  color: #fff;
+  padding: 8px;
+}
